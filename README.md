@@ -104,7 +104,7 @@ E-commerce-Clone/
 1. Clone or download the repository:
 
 ```bash
-git clone https://khushgupta14.github.io/E-commerce-Clone/
+git clone https://github.com/khushgupta14/E-commerce-Clone.git
 ```
 
 2. Make sure all image files are in the correct folders (see structure above).
