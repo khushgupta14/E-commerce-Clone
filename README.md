@@ -8,7 +8,7 @@ dynamic rendering, and real-world UI patterns without any framework.
 
 ## 🌐 Live Demo
 
-> 🔗 **[View Live Demo](https://khushgupta14.github.io/E-commerce-Clone/)**
+> 🔗 **[View Live Demo](https://e-commerce-clone-coral.vercel.app/)**
 
 ---
 
@@ -104,7 +104,7 @@ E-commerce-Clone/
 1. Clone or download the repository:
 
 ```bash
-git clone https://github.com/khushgupta14/E-commerce-Clone.git
+git clone https://e-commerce-clone-coral.vercel.app/
 ```
 
 2. Make sure all image files are in the correct folders (see structure above).
