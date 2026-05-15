@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="student-warning">
+        ⚠️ THIS IS A STUDENT WEB DEVELOPMENT PROJECT. NOT A REAL STORE. DO NOT ENTER ANY PERSONAL INFORMATION. ⚠️
+    </div>
+    <header>
+        <div class="navbar">
+            <div class="nav-logo">
+                <h2 class="text-logo">Clone</h2>
+            </div>
+
+            <div class="nav-address">
+                <p class="add-first">Deliver to</p>
+                <div class="add-icon">
+                    <!-- fa is font awesome -->
+                    <i class="fa-solid fa-location-dot"></i> 
+                    <p class="add-second">India</p>
+                </div>
+            </div>
+
+            <div class="nav-search">
+                <select class="search-select">
+                    <option>All</option>
+                </select>
+                <input placeholder="Search Clone" class="search-input">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+
+            <div class="nav-signin">
+                <p><span>Hello, Guest</span></p>
+                <p class="nav-second">Account & Lists</p>
+            </div>
+
+            <div class="nav-return">
+                <p><span>Returns</span></p>
+                <p class="nav-second">& Orders</p>
+            </div>
+            <!-- &#127769; -> moon icon -->
+            <div class="nav-dark-mode" id="theme-toggle">&#127769;</div>
+
+            <div class="nav-cart">
+                <i class="fa-solid fa-cart-shopping"></i>
+                Cart <span id="cart-count">0</span>
+            </div>
+        </div>
+
+        <div class="panel">
+            <div class="panel-all">
+                <i class="fa-solid fa-list"></i> All
+            </div>
+            <div class="panel-options">
+                <p>Today's Deals</p>
+                <p>Customer Service</p>
+                <p>Registry</p>
+                <p>Gift Cards</p>
+                <p>Sell</p>
+            </div>
+            <div class="panel-deals">
+                Shop Deals In Electronics
+            </div>
+        </div>
+    </header>
+
+    <div class="hero-section">
+        <button class="hero-arrow left-arrow">
+            <i class="fa-solid fa-chevron-left"></i>
+        </button>
+
+        <div class="hero-message">
+            <p>Dive into my interactive e-commerce clone! Browse the categories below to see dynamic JavaScript rendering and cart functionality in action.</p>
+        </div>
+        
+        <button class="hero-arrow right-arrow">
+            <i class="fa-solid fa-chevron-right"></i>
+        </button>
+    </div>
+
+    <div class="shop-section" id="shop-section"></div>
+
+    <footer>
+        <div class="foot-panel1">Back to top</div>
+        <div class="foot-panel2">
+            <ul>
+                <p>Get to know us</p>
+                <a>Career</a>
+                <a>Blog</a>
+                <a>Investor Relations</a>
+                <a>Our Devices</a>
+            </ul>
+            <ul>
+                <p>Make Money with Us</p>
+                <a>Sell products with Us</a>
+                <a>Sell on Business</a>
+                <a>Sell apps</a>
+                <a>Become an Affiliate</a>
+                <a>Advertise Your Products</a>
+                <a>Self-Publish with Us</a>
+                <a>Host a Delivery Hub</a>
+            </ul>
+            <ul>
+                <p>Payment Products</p>
+                <a>Business Card</a>
+                <a>Shop with Points</a>
+                <a>Reload Your Balance</a>
+                <a>Currency Converter</a>
+            </ul>
+            <ul>
+                <p>Let Us Help You</p>
+                <a>COVID-19</a>
+                <a>Your Account</a>
+                <a>Your Orders</a>
+                <a>Shipping Rates & Policies</a>
+                <a>Returns & Replacements</a>
+                <a>Manage Your Content and Devices</a>
+                <a>Help</a>
+            </ul>
+        </div>
+        <div class="foot-panel3">
+            <h2 class="text-logo"></h2>
+        </div>
+        <div class="foot-panel4">
+            <div class="pages">
+                <a>Conditions of Use</a>
+                <a>Privacy Notice</a>
+                <a>Your Ads Privacy Choices</a>
+            </div>
+            <div class="copyright">
+                © 2026 Built for educational purposes.
+            </div>
+        </div>
+    </footer>
+
+    <!-- CART SIDEBAR -->
+    <div id="cart-sidebar" class="cart-sidebar">
+        <div class="cart-header">
+            <h2>Your Cart</h2>
+            <!-- &times; -> x icon -->
+            <button id="close-cart">&times;</button>
+        </div>
+        <div id="cart-items-container">
+            <p class="cart-empty">Your cart is empty.</p>
+        </div>
+        <div class="cart-footer">
+            <h3>Total: <span id="cart-total-price">₹0</span></h3>
+            <button class="checkout-btn">Checkout</button>
+        </div>
+    </div>
+    <!-- semi-transparent background that appears over your entire screen when you open the shopping cart sidebar -->
+    <div id="cart-overlay" class="cart-overlay"></div>
+    <script src="script.js"></script>
+</body>
+</html>
