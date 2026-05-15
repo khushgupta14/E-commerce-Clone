@@ -8,7 +8,7 @@ dynamic rendering, and real-world UI patterns without any framework.
 
 ## 🌐 Live Demo
 
-> 🔗 **[View Live Demo]()**
+> 🔗 **[View Live Demo](https://khushgupta14.github.io/E-commerce-Clone/)**
 
 ---
 
@@ -46,7 +46,7 @@ The shop grid scales from 4 → 2 → 1 columns on smaller screens.
 ## 📁 Project Structure
 
 ```
-ecommerce-clone/
+E-commerce-Clone/
 │
 ├── index.html                  # Main HTML structure
 ├── style.css                   # Styling, CSS variables, dark mode
@@ -104,7 +104,7 @@ ecommerce-clone/
 1. Clone or download the repository:
 
 ```bash
-git clone 
+git clone https://khushgupta14.github.io/E-commerce-Clone/
 ```
 
 2. Make sure all image files are in the correct folders (see structure above).
